@@ -1,0 +1,89 @@
+---
+layout: default
+---
+<p id="notice"></p>
+
+<div class="container">
+  <div class="jumbotron  well-lg" style="opacity: 0.9">
+    <h2>Vulnerabilities I've disclosed publically:</h2>
+<!--</div>
+
+<div class="container">-->
+<table class="table table-striped table-hover">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Cve</th>
+      <th>Date</th>
+      <th>Description</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for bug in site.data.bugs %}
+      <tr>
+
+        <td>{{ bug.id }}</td>
+        <td>{{ bug.name }}</td>
+        <td>{{ bug.date }}</td>
+        <td>{{ bug.info }}</td>
+      </tr>
+{% endfor %}
+  </tbody>
+</table>
+</div>
+</div>
+  !!!
+<br>
+
+
+
+<style>
+  .mybody{
+    background-image: url("https://www.azamaraclubcruises.com/sites/default/files/heros/auckland-new-zealand.jpg");
+    -moz-background-size: contain;
+    display: block;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: -1;
+    fit
+
+  }
+  .blur {
+    -webkit-filter: blur(5px) grayscale(50%);
+  }
+  body {
+
+  }
+
+  body {
+    background: url("https://woolblog.files.wordpress.com/2012/02/laneve-wool-farm-in-new-zealand.jpg") no-repeat center center fixed;
+    content: '';
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*-webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);*/
+opacity: 1.0;
+  }
+
+.masthead{
+  background-image: linear-gradient(to bottom, #563d7c 0%, #6f5499 100%);
+  padding-bottom: 72px;
+  padding-top: 54px;
+}
+</style>
+
