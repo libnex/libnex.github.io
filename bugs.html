@@ -21,13 +21,17 @@ layout: default
   </thead>
 
   <tbody>
-    {% for bug in site.data.bugs %}
+    {% assign bugs = site.data.bugs | sort: "date" | reverse  %}
+    {% for bug in bugs %}
       <tr>
 
-        <td>{{ bug.id }}</td>
         <td>{{ bug.name }}</td>
+        <td>{{ bug.id }}</td>
         <td>{{ bug.date }}</td>
-        <td>{{ bug.info }}</td>
+<!--        <td>{{ bug.info }}</td>-->
+	{% for link in bug.info %}
+	<td><a href="{{ link[1] }} ">[{{ link[0] }}]</a></td>
+	{% endfor %}
       </tr>
 {% endfor %}
   </tbody>
