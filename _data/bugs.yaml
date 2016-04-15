@@ -1,10 +1,80 @@
-- name: Secret
-  id: 123
-  date: 2015-11-30
-  info: Test
+- name: Attachment direct obj ref | Totara LMS 
+  id: T-14175 
+  date: 2015-03-18
+  info:
+         "Totara LMS < 2.7.1": "http://www.totaralms.com/"
+ 
 
-- name: Hidden
-  id: 2015-12-1
-  date: 2015-11-30
-  info: test
         
+- name: Axway SecureTransport Arbitrary File Upload CSRF  
+  id: CVE-2013-7057 
+  date: 2014-10-23
+  info:
+         "ExploitDB": "https://www.exploit-db.com/exploits/35046/"
+
+
+
+- name: ZIP Integer Overflow | Libzip
+  id: CVE-2015-2331
+  date: 2015-03-18
+  info:
+         "Root Cause Analysis": "http://www.totaralms.com/"
+
+
+- name: Buffer Over-read in Phar | PHP 
+  id: CVE-2015-2783  
+  date: 2015-03-29
+  info:
+         "Totara LMS < 2.7.1": "http://www.totaralms.com/"
+
+
+- name: Buffer of flow when parsing tar/zip/phar | PHP 
+  id: CVE-2015-3329
+  date: 2015-04-14
+  info:
+         "Totara LMS < 2.7.1": "http://www.totaralms.com/"
+
+
+
+- name: Heap Metadata corruption in phar_tar_process_metadata() | PHP  
+  id: CVE-2015-3307 
+  date: 2015-05-18
+  info:
+         "Bug Report": "https://bugs.php.net/bug.php?id=69443&edit=2"
+
+
+- name: Memory Corruption in phar_parse_tarfile | PHP  
+  id: CVE-2015-4021
+  date: 2015-05-18
+  info:
+         "Bug Report": "https://bugs.php.net/bug.php?id=69453&edit=2"
+
+
+- name: Null pointer dereference in phar_get_fp_offset() | PHP 
+  id: CVE-2015-7803
+  date: 2015-09-29
+  info:
+         "Bug Report": "https://bugs.php.net/bug.php?id=69720"
+
+
+- name: Memory Read via gdImageRotateInterpolated Array Index Out of Bounds | PHP 
+  id: CVE-2016-1903
+  date: 2015-11-26
+  info:
+         "Totara LMS < 2.7.1": "http://www.totaralms.com/"
+
+
+- name: Use after free in sortWithSortKeys() | PHP  
+  id: CVE-2015-8616
+  date: 2015-12-03
+  info:
+         "Bug Report": "https://bugs.php.net/bug.php?id=71020&edit=2"
+
+
+- name: Heap BufferOver Flow in escapeshell functions | PHP 
+  id: CVE-2016-1904  
+  date: 2016-01-04
+  info:
+         "Bug Report": "https://bugs.php.net/bug.php?id=71270"
+
+
